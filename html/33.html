@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>33</title>
+
+    <style>
+        .flex-child {flex: 1; margin: 20px; margin-top: 0; margin-bottom: 0;}
+        .flex-child-padding {flex: 1;}
+    </style>
+
+</head>
+<body>
+
+<h1 style="text-align: left">Centor</h1>
+
+<div style="text-align: center">
+    <a href="https://youtube.com">YouTube</a>
+</div>
+
+<div style="margin-left: 50%; text-align: right; background: red">
+    <a href="https://youtube.com">YouTube 2</a>
+</div>
+
+<p style="margin-left: 20px; margin-bottom: 180px">Margin 2</p>
+<p>Margin default</p>
+<p style="margin: 50px">Margin 1</p>
+<p>Margin default</p>
+
+<div style="width: 50%; background: pink">
+    <p style="text-align: center">Margin with %</p>
+</div>
+
+<div style="background: gray">
+    <p>Float method</p>
+    <div style="width: 33%; float: left; background: pink">
+        <a>1</a>
+    </div>
+    <div style="width: 33%; float: left; background: red">
+        <a>2</a>
+    </div>
+    <div style="width: 33%; float: right; background: red">
+        <a>3</a>
+    </div>
+
+</div>
+
+<br/>
+
+<p>Flexbox method</p>
+<div style="display: flex;">
+    <div class="flex-child" style="background: red">
+        <a>1</a>
+    </div>
+    <div class="flex-child" style="background: magenta">
+        <a>2</a>
+    </div>
+    <div class="flex-child" style="background: yellow">
+        <a>3</a>
+    </div>
+</div>
+
+<br/>
+
+<div style="background: gray; display: flex; padding: 20px">
+    <div class="flex-child-padding" style="background: red">
+        <a>1</a>
+    </div>
+    <div class="flex-child-padding" style="background: magenta">
+        <a>2</a>
+    </div>
+    <div class="flex-child-padding" style="background: yellow">
+        <a>3</a>
+    </div>
+</div>
+</body>
+</html>
